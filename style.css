@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #FEECE2;
+}
+nav{
+    background-color: #333A73;
+    color: #FBA834;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.search-cont input, button{
+    padding: 0.25rem;
+    border-radius: .25rem;
+    border: none;
+    font-size: 14px;
+}
+.search-cont button{
+    background-color: #FBA834;
+    color: #333A73;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.search-cont button:hover{
+    background-color: #f8c47b;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-block: 38px;
+}
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.movie-cont{
+    display: flex;
+    /* justify-content: space-between; */
+    /* height: 70vh; */
+    width: 80%;
+    background-color: #F7DED0;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+.movie-posterr>img{
+    /* object-fit: contain; */
+    background-color: #333A73;
+    padding: 2rem;
+    /* height: 450px; */
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.movie-info{
+    padding-inline: 15px;
+}
+.movie-info h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0 0 12px;
+}
+.movie-info h2+p{
+    text-align: center;
+}
+.movie-info p{
+    font-size: 17px;
+}
+.movie-info .movie-genre{
+    background: #333A73;
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    margin-inline: 5px;
+    padding-inline: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+footer{
+    background-color: #333A73;
+    color: aliceblue;
+    text-align: center;
+    padding-block: 16px;
+    font-size: 18px;
+}
